@@ -7,7 +7,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #009193;
+  border-color: #00c5c8;
   border-width: 3px;
   max-width: 50px;
 }
@@ -18,11 +18,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #009193;
+  color: #00c5c8;
 }
 a:hover,
 a:focus {
-  color: #005f60;
+  color: #009395;
 }
 h1,
 h2,
@@ -38,7 +38,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #009193;
+  background-color: #00c5c8;
 }
 .bg-dark {
   background-color: #222222;
@@ -65,14 +65,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #009193;
+  color: #00c5c8;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #005f60;
+  color: #009395;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -89,11 +89,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #009193;
+  color: #00c5c8;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #009193 !important;
+  color: #00c5c8 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -125,12 +125,12 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #009193;
+    color: #00c5c8;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #005f60;
+    color: #009395;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -138,7 +138,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #009193;
+    color: #00c5c8;
   }
 }
 header {
@@ -235,7 +235,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(0, 145, 147, 0.9);
+  background: rgba(0, 197, 200, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -283,7 +283,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #009193;
+  color: #00c5c8;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -339,8 +339,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #009193;
-  border-color: #009193;
+  background-color: #00c5c8;
+  border-color: #00c5c8;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -352,8 +352,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #00787a;
-  border-color: #006e6f;
+  background-color: #00acaf;
+  border-color: #00a2a4;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -378,11 +378,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #009193;
-  border-color: #009193;
+  background-color: #00c5c8;
+  border-color: #00c5c8;
 }
 .btn-primary .badge {
-  color: #009193;
+  color: #00c5c8;
   background-color: white;
 }
 .btn {
@@ -430,23 +430,41 @@ h2 {
 .bg-light {
   background-color: #DDD;
 }
-.jtly-logo .logo-text {
-  font-family: 'Abel', sans-serif;
+.jtly-logo .logo {
   color: #fff;
-}
-.jtly-logo .logo-mark {
-  display: block;
-  margin: auto;
-  width: 150px;
-  height: 100px;
-  background-image: url('../img/hand_mark.png');
+  text-indent: -999px;
+  width: 400px;
+  height: 300px;
+  background-image: url('../img/logos/JTLY_Vertical_Light_No_BG.png');
+  background-image: url('../img/logos/JTLY_Vertical_Light_No_BG.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  color: #fff;
+  overflow: hidden;
+  display: block;
+  margin: auto;
 }
 .jtly-logo-wide .logo-mark {
   width: 75px;
   height: 25px;
+}
+.jtly-logo-wide .logo {
+  color: #fff;
+  text-indent: -999px;
+  width: 120px;
+  height: 40px;
+  background-image: url('../img/logos/JTLY_Hoz_Flat_White_NoBG.png');
+  background-image: url('../img/logos/JTLY_Hoz_Flat_White_NoBG.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  margin: 0 10px;
+}
+.navbar-brand {
+  padding: 5px;
+}
+#here-to-help .text-faded {
+  color: #184344;
 }
 .mc-field-group {
   width: 30%;
